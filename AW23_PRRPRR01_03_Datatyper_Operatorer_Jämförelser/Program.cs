@@ -29,7 +29,9 @@ namespace AW23_PRRPRR01_03_Datatyper_Operatorer_Jämförelser {
 			a = a * 2;
 			a *= 2;
 
-
+			if (a != 3) {
+				Console.WriteLine("Hej");
+			}
 
 		}
 	}
