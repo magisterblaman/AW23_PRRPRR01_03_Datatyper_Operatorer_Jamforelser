@@ -8,31 +8,20 @@ namespace AW23_PRRPRR01_03_Datatyper_Operatorer_Jämförelser {
 	internal class Program {
 		static void Main(string[] args) {
 
-			int a = 34;
-			int b = 35;
-			int sum = a + b;
+			int a = 3;
+			int b = 3;
 
-			Console.WriteLine(sum);
-
-			// inkrementera
-			a = a + 1;
-			a += 1;
-			a++;
-			++a;
-
-			// dekrementera
-			a = a - 1;
-			a -= 1;
-			a--;
-			--a;
-
-			a = a * 2;
-			a *= 2;
-
-			if (a != 3) {
-				Console.WriteLine("Hej");
+			if (a == 3 && b == 2) {
+				Console.WriteLine("If-sats 1");
 			}
 
+			if (!(a == 3 || b == 2)) {
+				Console.WriteLine("If-sats 2");
+			}
+
+			if (a == 3 && b == 2 || a + b == 6) {
+				Console.WriteLine("If-sats 3");
+			}
 		}
 	}
 }
