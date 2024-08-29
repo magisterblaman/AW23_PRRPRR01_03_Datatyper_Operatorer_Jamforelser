@@ -8,21 +8,28 @@ namespace AW23_PRRPRR01_03_Datatyper_Operatorer_Jämförelser {
 	internal class Program {
 		static void Main(string[] args) {
 
-			string hejhejstring = "dsahj";
+			int a = 34;
+			int b = 35;
+			int sum = a + b;
 
-			// string dethärhej = 45;
+			Console.WriteLine(sum);
 
-			int i = 0;
-			double minVariabel = 45.3;
+			// inkrementera
+			a = a + 1;
+			a += 1;
+			a++;
+			++a;
+
+			// dekrementera
+			a = a - 1;
+			a -= 1;
+			a--;
+			--a;
+
+			a = a * 2;
+			a *= 2;
 
 
-			bool minBool = true;
-
-			if (minBool) { 
-
-			}
-
-			char minChar = ' ';
 
 		}
 	}
