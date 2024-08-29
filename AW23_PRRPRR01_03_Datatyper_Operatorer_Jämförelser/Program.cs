@@ -8,13 +8,12 @@ namespace AW23_PRRPRR01_03_Datatyper_Operatorer_Jämförelser {
 	internal class Program {
 		static void Main(string[] args) {
 
-			double a = 3.4;
+			Console.WriteLine("Skriv in ett värde");
+			string a = Console.ReadLine();
 
-			int b = (int)a;
+			double b = double.Parse(a);
 
-			int c = 54;
-
-			double d = c;
+			Console.WriteLine(b);
 		}
 	}
 }
